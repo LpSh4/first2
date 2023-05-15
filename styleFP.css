@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.bones {
+	position: relative;
+	max-height: 200%;
+	bottom: 0;
+}
+
+.main {
+	border-right: 3px dotted #7B68EE;
+	border-left: 3px dotted #7B68EE;
+	border-bottom: 3px dotted #7B68EE;
+	position: sticky;
+	background-color: white;
+	top: 0%;
+	left: 20%;
+	right: 20%;
+	width: 60%;
+	max-width: 1124.39px;
+	min-width: 1124.39px;
+	max-height: 1372px;
+	min-height: 500px;
+	height: 1369px;
+}
+
+#upperup {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	min-height: 49px;
+	max-height: 49px;
+	background-color: white;
+	z-index: 10;
+}
+
+#upper {
+	z-index: 10;
+	position: sticky;
+	background-color: #7B68EE;
+	top: 5%;
+	left: 0%;
+	right: 0%;
+	width: 100%;
+	min-height: 97px;
+	max-height: 97px;
+}
+
+.headerimg {
+	position: relative;
+	top: 0px;
+	width: 100%;
+}
+
+#logo {
+	position: fixed;
+	top: 0%;
+	height: 5%;
+	left: 20%;
+}
+
+#sidelogo {
+	position: fixed;
+	top: 5%;
+	margin-top: 5px;
+	height: 5%;
+	left: 20%;
+}
+
+._anim-show {
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+
+.firstimage._anim-show,
+.secondimage._anim-show {
+	transition: all 0.8s ease 0.3s;
+}
+
+.anim-show._active,
+._active ._anim-show {
+	opacity: 1;
+	transform: translate(0px, 0px);
+}
+
+._header {
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+._text {
+	font: 100%/1.3 Source Sans Pro, Arial, Helvetica Neue, Helvetica, "sans-serif";
+}
+
+.result {
+	top: 4em;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.table {
+	position: sticky;
+	margin: auto;
+	margin-top: 200px;
+	width: 808px;
+	height: 80px;
+	border: 4px solid #7B68EE;
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: #7B68EE;
+}
+
+.A, .Aplus, .B, .Bplus, .C, .Cplus, .D, .Dplus {
+	position: sticky;
+	white-space: nowrap;
+	width: 100px;
+	height: 80px;
+	margin: auto;
+	margin-left: -2px;
+	padding: 0;
+	background-color: grey;
+	display: inline-block;
+	transition: 350ms;
+}
+
+._qright {
+	background-color: rgb(41, 255, 34);
+}
+
+._qwrong {
+	background-color: rgb(255, 25, 25);
+}
+
+.mark {
+	position: relative;
+}

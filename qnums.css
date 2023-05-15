@@ -1,0 +1,64 @@
+.qnumb {
+	position: relative;
+	top: 10px;
+	left: 28%;
+}
+.qnum1,
+.qnum2,
+.qnum3,
+.qnum4,
+.qnum5,
+.qnum6,
+.qnum7,
+.qnum8 {
+	float: left;
+	position: relative;
+	background-color: grey;
+	width: 5%;
+	height: 10px;
+	border-radius: 3px;
+	top: 5px;
+	margin-left: 0.5%;
+	transition: 200ms;
+}
+
+.qnum1 {
+	margin-left: 0%;
+}
+
+._down:hover {
+	top: 10px;
+}
+
+
+.qnum1._anim-show {
+	transform: translate(0px, 0px);
+}
+
+.qnum2._anim-show {
+	transform: translate(-100%, 0px);
+}
+
+.qnum3._anim-show {
+	transform: translate(-200%, 0px);
+}
+
+.qnum4._anim-show {
+	transform: translate(-300%, 0px);
+}
+
+.qnum5._anim-show {
+	transform: translate(-400%, 0px);
+}
+
+.qnum6._anim-show {
+	transform: translate(-500%, 0px);
+}
+
+.qnum7._anim-show {
+	transform: translate(-600%, 0px);
+}
+
+.qnum8._anim-show {
+	transform: translate(-700%, 0px);
+}

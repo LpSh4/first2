@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="JQuery.js"></script>
+	<script>
+		$('document').ready(function () {
+			localStorage.setItem('currentq', `C+`)
+		});
+	</script>
+	<script type="text/javascript" src="scriptq1.js"></script>
+	<script type="text/javascript" src="ruqrandom.js"></script>
+	<script type="text/javascript" src="counterq.js"></script>
+	<link type="text/css" rel="stylesheet" href="qnums.css">
+	<link type="text/css" rel="stylesheet" href="buttonscontentTM.css">
+	<link type="text/css" rel="stylesheet" href="styleq1.css">
+	<title>Test accomplishment | Lang tests</title>
+	<link rel="shortcut icon" href="Imgs/qlogo.ico">
+</head>
+
+<body>
+	<div class="main">
+		<div class="qnumb _animItems _anim-no-hide">
+			<div class="qnum1 _down _anim-show">
+			</div>
+			<div class="qnum2 _down _anim-show">
+			</div>
+			<div class="qnum3 _down _anim-show">
+			</div>
+			<div class="qnum4 _down _anim-show">
+			</div>
+			<div class="qnum5 _down _anim-show">
+			</div>
+			<div class="qnum6 _down _anim-show">
+			</div>
+			<div class="qnum7 _down _anim-show">
+			</div>
+			<div class="qnum8 _down _anim-show">
+			</div>
+		</div>
+		<div class="describe _animItems _anim-no-hide">
+			<p class="descr-child _descrheader _header _anim-show">Ya ebu oslov</p>
+			<ul>
+				<li class="_anim-show">
+					<p class="descr-child _anim-show">In this type of questions you need to find a mistake in the text.
+						There is no context or full version of that, so you need to find <b>only grammatical or spelling
+						errors.</b> Be attentive, because there is only one mistake.</p>
+				</li>
+				<li class="_anim-show">
+					<p class="descr-child _seconddescr _anim-show">Be sure in your answer, because we also gave you 2
+						attempts to check your answer before submitting it.</p>
+				</li>
+			</ul>
+		</div>
+		<p id="error">.</p>
+		<div class="questions _animItems">
+			<p class="questions-text _animItem">
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>Сначала</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>Наталья</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>работала</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>в</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>Париже</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>,</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>потом</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>её</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>стали</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>приглашать</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>в</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>другие</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>страны</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>.</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>Наталья</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>активно</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose _ans"><b>поможет</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>детям</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>,</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>которые</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>имеют</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>проблемы</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>со</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>здоровьем</b></a>
+				<a class="questions-text-child _anim-show _anim-no-hide _needchoose"><b>.</b></a>
+				<!-- C+ -->
+			</p>
+		</div>
+		<div class="check _animItems _anim-no-hide">
+			<button type="button" id="test1" class="checkbtn _black _anim-show">Check answer!</button>
+		</div>
+		
+		<div class="start-child-img _animItems _anim-no-hide">
+			<a class="lqdbutton _anim-show _q">
+				<span><b>Continue!</b></span>
+				<div class="liquid _anim-show"></div>
+			</a>
+		</div>
+	</div>
+	<div id="upperup">
+		<img id="logo" src="Imgs/logoM.png">
+		<div class="changelang">
+			<div class="container">
+				<span id="changelangchild">Change language</span>
+			</div>
+		</div>
+	</div>
+	
+	<div id="upper">
+		<img id="sidelogo" src="Imgs/sidelogo.png">
+		<div class="buttons" id="homeone">
+			<span id="homechild">Home</span>
+		</div>
+		<div class="buttons" id="aboutone">
+			<span id="aboutchild">About us</span>
+			<div class="arrow"></div>
+		</div>
+		<div class="aboutcontent-container">
+			<div class="aboutcontent _activeCont">
+				<div id="choose">
+					<div class="aboutcontentchoose" id="developers">
+						<div class="container"><span class="aboutcontentchoosechild"
+								id="developerschild">Developers</span>
+						</div>
+						<div class="arrow"></div>
+					</div>
+					<div class="aboutcontentchoose" id="project">
+						<div class="container"><span class="aboutcontentchoosechild" id="projectchild">Project
+								info</span>
+						</div>
+						<div class="arrow"></div>
+					</div>
+				</div>
+				<div id="choosedcontent">
+					<div class="choosedcontentchild _developers _boutneedier">
+						<div class="lpshouttime">
+							<p class="lpshouttime-child"><b>@</b>lpshouttime</p>
+						</div>
+						<div class="hound">
+							<p class="hound-child"><b>@</b>mini-hound</p>
+						</div>
+					</div>
+					<div class="choosedcontentchild _info _infoneedier">
+						<a href="about.txt" download="About_Us.txt">
+							<div class="infocontent _project _prneedier">
+								<p class="infocontentchild _project">About project</p>
+							</div>
+						</a>
+						<a href="mission.txt" download="Project_mission.txt">
+							<div class="infocontent _mission _msneedier">
+								<p class="infocontentchild _mission">Project mission</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="buttons" id="ruleone">
+			<span id="rulechild">Rules</span></span>
+			<div class="arrow"></div>
+		</div>
+	</div>
+</body>
+
+</html>

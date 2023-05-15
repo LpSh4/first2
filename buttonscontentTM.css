@@ -1,0 +1,431 @@
+.buttons {
+    position: fixed;
+    width: 3%;
+    height: 2%;
+    left: 20%;
+    text-align: center;
+    vertical-align: bottom;
+    top: 13%;
+    transition: 350ms;
+    border-bottom: 0px solid grey;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.changelang {
+    position: fixed;
+    top: 0%;
+    width: 10%;
+    max-width: 186.39px;
+    min-width: 186.39px;
+    max-height: 50px;
+    min-height: 50px;
+    height: 5%;
+    right: 20%;
+    text-align: center;
+    transition: 200ms;
+    cursor: pointer;
+    border-bottom: 0px solid #00166C;
+    float: left;
+}
+
+.changelang .container {
+    padding: 1em;
+}
+
+#changelangchild {
+    position: relative;
+    transition: 350ms;
+    font-family: impact, sans-serif;
+    color: #00166C;
+    font-size: 18px;
+}
+
+.aboutcontentchoose {
+    position: relative;
+    width: 100%;
+    height: 32%;
+    cursor: default;
+    border-bottom: 2px dotted #7B68EE;
+    transition: 3050ms;
+    background-color: transparent;
+}
+
+.aboutcontent.aboutcontent._active .aboutcontentchoose {
+    cursor: pointer;
+}
+
+.aboutcontentchoose .container {
+    position: relative;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.aboutcontentchoose .arrow {
+    position: relative;
+    margin-top: -10%;
+    margin-left: 90%;
+    transform: rotate(45deg);
+}
+
+.aboutcontentchoosechild {
+    color: #7B68EE;
+    font-family: impact, sans-serif;
+    font-size: 15px;
+    transition: 350ms;
+}
+
+#ruleone {
+    margin-left: 8%;
+    width: 5%;
+}
+
+#aboutchild,
+#rulechild {
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid #00166C;
+    border-left: 2px solid #00166C;
+    transform: rotate(135deg);
+    transition: 350ms;
+}
+
+#aboutone .arrow {
+    margin-left: 75px;
+    margin-top: -14px;
+}
+
+#ruleone .arrow {
+    margin-left: 60px;
+    margin-top: -14px;
+}
+
+#homechild,
+#aboutchild,
+#rulechild {
+    position: relative;
+    font-family: impact, sans-serif;
+    color: #00166C;
+    max-width: 200px;
+    min-width: 200px;
+    font-size: 15px;
+}
+
+#aboutone{
+    margin-left: 3%;
+    width: 5%;
+}
+
+.aboutcontent-container {
+    overflow: hidden;
+}
+
+.aboutcontent {
+    position: fixed;
+    top: 15%;
+    left: 23%;
+    height: 10%;
+    max-width: 395.44px;
+    min-width: 395.44px;
+    background-color: white;
+    border-bottom: 2px solid #7B68EE;
+    border-right: 2px solid #7B68EE;
+    border-left: 2px solid #7B68EE;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+    transform: translate(0px, -120%);
+}
+
+.aboutcontent._active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: all 0.2s ease 0s;
+}
+
+#choose {
+    position: relative;
+    height: 100%;
+    width: 34%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    border-right: 2px solid #7B68EE;
+    cursor: default;
+}
+
+#choosedcontent {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    right: 0;
+    float: left;
+}
+
+.choosedcontentchild {
+    height: 100%;
+    opacity: 0;
+    width: 0%;
+    font-family: impact, sans-serif;
+    font-size: 25px;
+    color: #7B68EE;
+    text-align: center;
+    transition: all 0.8s ease 0s;
+    float: left;
+}
+
+.choosedcontentchild._active {
+    opacity: 1;
+    width: 100%;
+}
+
+.choosedcontentchild._active .lpshouttime,
+.choosedcontentchild._active .hound {
+    cursor: pointer;
+}
+
+.lpshouttime {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 47%;
+    border-bottom: 2px dotted #7B68EE;
+    transition: all 0.8s ease 0.0s;
+    cursor: default;
+}
+
+.lpshouttime-child {
+    position: relative;
+    top: 15%;
+    vertical-align: center;
+}
+
+.hound {
+    position: relative;
+    width: 100%;
+    height: 53%;
+    transition: all 0.3s ease 0.0s;
+    cursor: default;
+}
+
+.hound-child {
+    position: relative;
+    top: 15%;
+    vertical-align: center;
+    transition: 350ms;
+    white-space: nowrap;
+}
+
+.infocontent {
+    position: relative;
+    width: 50%;
+    height: 40%;
+    top: 0;
+    float: left;
+    cursor: pointer;
+    border-bottom: 2px dotted #7B68EE;
+    transition: 200ms;
+}
+
+.infocontent._project {
+    border-right: 2px dotted #7B68EE;
+    margin-left: -2px;
+}
+
+.infocontentchild {
+    font-family: impact, sans-serif;
+    font-size: 15px;
+    color: #7B68EE;
+    text-align: center;
+    transition: all 0.8s ease 0s;
+    margin-top: 5px;
+}
+
+.infocontentchild-text {
+    z-index: 11;
+	position: fixed;
+	max-width: 362.8px;
+	min-width: 362.8px;
+    max-height: 388px;
+    min-height: 388px;
+    border-left: 5px solid #7B68EE;
+    border-bottom: 5px solid #7B68EE;
+    border-right: 5px solid #7B68EE;
+	left: 0;
+	top: 146px;
+    background-color: white;
+}
+
+._space {
+    margin-left: 10px;
+}
+
+.infocontent:hover {
+    border-bottom: 2px solid #7B68EE;
+}
+
+.infocontent:hover .infocontentchild{
+    font-size: 17px;
+    color:#00166C
+}
+.infocontent:hover {
+    font-size: 17px;
+}
+
+.ivan {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.lqdbutton {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    padding: 20px 25px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.lqdbutton span {
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, "sans-serif";
+    letter-spacing: 0px;
+    white-space: nowrap;
+    z-index: 1;
+    transition: 350ms;
+}
+
+.lqdbutton .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #f171e7;
+    box-shadow: inset 0 0 50px rgb(98, 0, 255);
+    transition: .5s;
+}
+
+.lqdbutton .liquid::after,
+.lqdbutton .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #00e1ff;
+}
+
+.lqdbutton .liquid::before {
+    border-radius: 45%;
+    background: rgb(72, 36, 94);
+    animation: animate 5s linear infinite;
+}
+
+.lqdbutton .liquid::after {
+    border-radius: 40%;
+    background: rgba(66, 20, 104, 0.5);
+    animation: animate 10s linear infinite;
+}
+
+.lqdbutton:hover .liquid {
+    top: -120px;
+}
+
+.lqdbutton:hover span {
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.lqdbutton:hover {
+    padding: 20px 23px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
+
+#lqdcont {
+    color: white;
+    margin-left: -10px;
+}
+
+.aboutcontentchoose:hover {
+    border-bottom: 2px solid #7B68EE;
+}
+
+.aboutcontentchoose:hover .aboutcontentchoosechild {
+    color: #00166C;
+    font-size: 17px;
+}
+
+.aboutcontentchoose:hover .arrow {
+    transform: rotate(585deg);
+    border-bottom: 2px solid cyan;
+    border-left: 2px solid cyan;
+}
+
+.buttons:hover {
+    border-bottom: 5px solid #00166C;
+    margin-top: -5px;
+    color: #E6E6FA;
+}
+
+.buttons:hover .arrow {
+    transform: rotate(675deg);
+    margin-top: -20px;
+    border-bottom: 2px solid cyan;
+    border-left: 2px solid aqua;
+}
+
+.changelang:hover {
+    border-bottom: 5px solid #00166C;
+    margin-top: -5px;
+}
+
+.changelang:hover #changelangchild {
+    font-size: 20px;
+}
+
+.lpshouttime:hover {
+    background-color: rgb(172, 172, 172);
+    font-size: 29px;
+}
+
+.hound:hover {
+    background-color: rgb(172, 172, 172);
+    font-size: 29px;
+}
+
+.hound:hover .hound-child {
+    top: 10%;
+}
