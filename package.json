@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Lang Tests",
   "scripts": {
-    "start": "node server.js",
-    "build": "node server.js",
+    "start": "nodemon --watch backend --exec babel-node backend/server.js",
+    "build": "rm -rf dist && babel backend -d dist && cd frontend && npm install && npm run build",
     "serve": "node server.js",
     "heroku-prebuild": "cd frontend && npm install --dev"
   },
